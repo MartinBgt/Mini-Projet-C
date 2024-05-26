@@ -3,6 +3,29 @@
 #include <math.h>
 #include <string.h>
 
+/******************************************************************************
+*  ASR => 4R2.04                                                              *
+*******************************************************************************
+*                                                                             *
+*  N° de Sujet : 1                                                            *
+*                                                                             *
+*******************************************************************************
+*                                                                             *
+*  Intitulé : Analyse de trame GPS                                            *
+*                                                                             *
+*******************************************************************************
+*                                                                             *
+*  Nom-prénom1 : Pesant Fantin                                                *
+*                                                                             *
+*  Nom-prénom2 : Bagot Martin                                                 *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+*                                                                             *
+*  Nom du fichier : function.c                                                *
+*                                                                             *
+******************************************************************************/
+
 int isGPS(char chaine[]){
 	// Fonction qui prend en paramètre une chaine de caractère : si cette chaine est
 	// une trame GPS de la forme GPGGA, alors la fonction renvoie un entier égal à 1
